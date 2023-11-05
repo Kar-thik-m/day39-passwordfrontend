@@ -1,0 +1,94 @@
+/* Import a Google Font (Montserrat) */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+/* Apply box-sizing to all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Styling for the outer container */
+.outbox {
+    background: #383838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    margin: 0; /* Removed negative margin */
+}
+
+/* Header styling */
+.head {
+    font-weight: bold;
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+
+/* Style for links */
+.a {
+    color: #1e02ef;
+    font-size: 14px;
+    /* text-decoration: none; */
+    margin: 15px 0;
+    margin-top: 10%;
+}
+
+/* Button styling */
+.button {
+    border-radius: 20px;
+    border: 1px solid #FF4B2B;
+    background-color: #FF4B2B;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+.button:hover {
+    transform: scale(1.1); /* Increase the size of the button on hover */
+    background-color: #FF6633; /* Change the background color on hover */
+    color: #FFFFFF; /* You can adjust the text color as needed */
+}
+/* Form container styling */
+.form {
+    background-color: #555353;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+}
+
+/* Input field styling */
+.input {
+    background-color: #9b9595;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    margin-bottom: 30%;
+    width: 100%;
+}
+
+/* Styling for the main container */
+.container {
+    background-color: #999595;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(177, 170, 170, 0.25), 0 10px 10px rgba(212, 119, 119, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+    min-height: 400px;
+}
+
+/* Styling for the form container */
+.form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
